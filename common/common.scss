@@ -1,0 +1,48 @@
+.user-signature {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid var(--primary-low);
+  
+  .signature-user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+    
+    .signature-avatar {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .signature-username {
+      color: var(--primary);
+      font-weight: bold;
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--primary-high);
+      }
+    }
+  }
+  
+  .signature-content {
+    color: var(--primary-medium);
+    font-size: 0.9em;
+    line-height: 1.4;
+    
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.signature-field {
+  margin-top: 1em;
+  
+  .instructions {
+    color: var(--primary-medium);
+    font-size: 0.9em;
+    margin-top: 0.5em;
+  }
+} 

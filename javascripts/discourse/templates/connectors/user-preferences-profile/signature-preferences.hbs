@@ -1,0 +1,14 @@
+{{#if this.canHaveSignature}}
+  <div class="control-group signature-field">
+    <label class="control-label">{{i18n "user.signature.title"}}</label>
+    <div class="controls">
+      {{d-editor
+        value=model.custom_fields.signature
+        preview=true
+        disabled=disableSignature
+        allowLinks=false
+      }}
+      <div class="instructions">{{i18n "user.signature.instructions"}}</div>
+    </div>
+  </div>
+{{/if}} 

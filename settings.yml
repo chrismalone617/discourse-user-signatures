@@ -1,0 +1,5 @@
+signature_groups:
+  type: list
+  default: ""
+  description: "Select groups that can have signatures"
+  list_type: group 
